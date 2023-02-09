@@ -1,0 +1,79 @@
+.customSizeBlockContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  padding: 110px 0;
+  max-width: 1200px;
+  background: #ffca3a;
+  box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0px;
+}
+
+.customSizeInfo {
+  text-align: center;
+}
+
+.customPageText {
+  max-width: 335px;
+  padding: 25px 0 15px 0;
+}
+
+.customPageText p,
+h4 {
+  margin: 0 0 10px 0;
+}
+
+.customPageText p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3d5675;
+}
+
+.customPageText h4 {
+  letter-spacing: 0.36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #011f3a;
+}
+
+.verticalLine {
+  border-left: 2px solid rgba(101, 99, 99, 0.4);
+  height: 410px;
+}
+
+@media (max-width: 1200px) {
+  .customSizeBlockContent {
+    max-width: 970px;
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .customPageText {
+    padding: 0;
+  }
+  .customPageText p {
+    font-size: 12px;
+  }
+  .customPageText h4 {
+    font-size: 18px;
+  }
+  .customPageText p,
+  h4 {
+    padding: 0 10px;
+  }
+  .customSizeBlockContent {
+    align-items: normal;
+    margin-bottom: 0px;
+    padding: 30px;
+  }
+  .verticalLine {
+    height: 450px;
+  }
+}

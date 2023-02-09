@@ -1,0 +1,80 @@
+.customizeProcesItems {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  max-width: 1200px;
+  background: #72bda3;
+  box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0px;
+}
+
+.easyCustom {
+  color: #011f3a;
+  text-align: center;
+  padding: 85px 0 0 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.customizeProces {
+  display: flex;
+  justify-content: space-around;
+}
+
+.customizeProcesText p,
+h4 {
+  margin: 0 0 10px 0;
+}
+
+.customizeProcesText p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3d5675;
+}
+
+.customizeProcesText h4 {
+  letter-spacing: 0.36px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #011f3a;
+}
+
+.customizeProcesText {
+  max-width: 300px;
+  text-align: center;
+}
+
+.designButton {
+  padding: 85px 0;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .customizeProcesItems {
+    max-width: 970px;
+  }
+  .designButton {
+    padding: 45px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .customizeProcesItems {
+    max-width: 760px;
+  }
+  .easyCustom {
+    padding: 20px 0 0 0;
+    font-size: 26px;
+  }
+  .customizeProcesImg img {
+    width: 300px;
+    height: 300px;
+  }
+  .customizeProcesText {
+    max-width: none;
+  }
+}
+@media (max-width: 767px) {
+}

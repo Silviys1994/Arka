@@ -1,0 +1,171 @@
+.merchantsloveArkaPage {
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #eeeeee;
+}
+
+.merchantsloveArkaPage h2 {
+  padding: 65px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #011f3a;
+  text-align: center;
+}
+
+.reviewsBlock {
+  background: #ffffff;
+  box-shadow: 0px 14px 44px 14px rgba(143, 143, 143, 0.25);
+  border-radius: 0px;
+}
+
+.platformReviews {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.verticalLineTwo {
+  height: 70px;
+  border-left: 1px solid rgba(101, 99, 99, 0.4);
+}
+
+.firstReviewBlock {
+  display: flex;
+}
+
+.reviewText {
+  padding: 0 0 0 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reviewText p {
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #011f3a;
+}
+
+.reviewImg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviewInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewUserInfo {
+  padding: 0 10px;
+}
+
+.reviewUserInfo h6 {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #011f3a;
+}
+
+.reviewUserInfo p {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #a1a1a1;
+}
+
+.emptyBlock {
+  height: 55px;
+}
+
+.secondReviewBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thirdReviewBlock {
+  display: flex;
+  justify-content: flex-start;
+}
+.reviewUserInfoBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .merchantsloveArkaPage {
+    max-width: 970px;
+  }
+  .merchantsloveArkaPage h2 {
+    padding: 35px 0;
+  }
+  .platformReviews {
+    padding: 75px 0;
+  }
+  .reviewText {
+    padding: 0 5px 0 20px;
+  }
+  .reviewUserInfoBlock {
+    width: 45%;
+    align-items: center;
+  }
+  .reviewInfo Img {
+    height: 60px;
+    width: 60px;
+  }
+  .emptyBlock {
+    height: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .merchantsloveArkaPage {
+    max-width: 760px;
+  }
+  .firstReviewBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondReviewBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .thirdReviewBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviewInfo {
+    padding: 0 0 25px 0;
+  }
+  .reviewText {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .merchantsloveArkaPage {
+    background: none;
+    max-width: none;
+  }
+  .merchantsloveArkaPage h2 {
+    padding: 5px 0;
+  }
+  .platformReviews img {
+    height: 85px;
+  }
+  .reviewImg img {
+    height: 200px;
+    width: 200px;
+  }
+  .reviewInfo {
+    padding: 0 0 25px 0;
+  }
+}

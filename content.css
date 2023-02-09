@@ -1,0 +1,73 @@
+.content {
+  background: #f2ae4d;
+}
+.firstPage {
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #f2ae4d;
+  color: #011f3a;
+  height: 690px;
+  width: auto;
+  font-family: "Roboto", serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstPageContent {
+  padding-left: 15px;
+}
+
+.firstPageTextOne {
+  margin: 165px 0 0 0;
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56.25px;
+}
+.firstPageTextTwo {
+  max-width: 277px;
+  max-height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.firstPageTextImg {
+  max-width: 504px;
+  max-height: 504px;
+  padding-top: 87px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin: 0 auto;
+    padding-bottom: 150px;
+  }
+  .firstPage {
+    height: 400px;
+    padding: 0 0 100px 0;
+  }
+  .firstPageContent {
+    padding: 0 0 0 55px;
+    z-index: 1;
+  }
+}
+@media (max-width: 992px) {
+  .firstPage {
+    background: none;
+    height: 400px;
+    padding: 0 0 100px 0;
+  }
+  .firstPageTextImg {
+    display: none;
+  }
+  .content {
+    background-image: url(/images/Rectangle.png);
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    max-width: none;
+  }
+}

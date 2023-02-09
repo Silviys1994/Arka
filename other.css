@@ -1,0 +1,83 @@
+.buttonOne button {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  padding: 0 20px;
+  height: 44px;
+  background-color: #3d5675;
+  border-radius: 44px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.buttonOne button:hover {
+  background: #2b425e;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonOne button:active {
+  background-color: #2f3843;
+  box-shadow: 0 5px rgb(103, 103, 103, 0.6);
+  transform: translateY(4px);
+}
+.buttonTwo button {
+  cursor: pointer;
+  color: #3d5675;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  padding: 0 20px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 44px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.buttonTwo button:hover {
+  background: #fcf0f0;
+  color: #3d5675;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonTwo button:active {
+  background-color: #fcf0f0;
+  box-shadow: 0 5px rgb(103, 103, 103, 0.6);
+  transform: translateY(4px);
+}
+
+.buttonThree button {
+  cursor: pointer;
+  color: #3d5675;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  padding: 0 20px;
+  height: 44px;
+  background: #f2f2f2;
+  border-radius: 44px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.buttonThree button:hover {
+  background: #cec8c8;
+  color: #3d5675;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonThree button:active {
+  background-color: #cec8c8;
+  box-shadow: 0 5px rgb(103, 103, 103, 0.6);
+  transform: translateY(4px);
+}
+
+@media (max-width: 767px) {
+  .buttonOne button {
+    padding: 0 10px;
+    height: 35px;
+    font-size: 10px;
+  }
+  .buttonTwo button {
+    padding: 0 10px;
+    height: 35px;
+    font-size: 10px;
+  }
+}
